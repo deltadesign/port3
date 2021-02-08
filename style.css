@@ -106,8 +106,17 @@ section#about.active p {
   margin-bottom: 1.2em;
 }
 
+/* WORK SECTION */
+
+section#work.active {
+  display: flex;
+  border: red 2px solid;
+}
+
+
 
 /* MEDIA QUERIES */
+
 @media(max-width:798px) {
   .page-header {
     justify-content: center;
@@ -120,5 +129,9 @@ section#about.active p {
   
   section#about.active p{
     width: 75%;
+  }
+
+  section#work.active {
+    flex-direction: column;
   }
 }
