@@ -41,7 +41,6 @@
 
 header {
   height: auto;
-  width: fit-content;
   font-family: var(--font1);
   font-size: 4em;
   font-weight: bolder;
@@ -107,8 +106,17 @@ section#about.active p {
   margin-bottom: 1.2em;
 }
 
-@media(max-width:798px) {
 
+/* MEDIA QUERIES */
+@media(max-width:798px) {
+  .page-header {
+    justify-content: center;
+  }
+
+  header {
+    text-align: center;
+    font-size: 3em;
+  }
   
   section#about.active p{
     width: 75%;
