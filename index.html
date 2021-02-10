@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>III</title>
+  <title>Dan Thomas, Developer</title>
 </head>
 
 <body>
@@ -24,8 +24,9 @@
   </div>
 
   <section id="about" class="active">
-    <img src="./assets/images/profile.jpg" alt="">
-    <p>Hello, My name is Daniel Thomas. I’m a Developer from Sheffield. I started learning to code in 2020 and although I am very new to coding, I have found a passion for creating simple, user-friendly sites and applications.</p>
+    <img src="./assets/images/profile.jpg" alt="a man with a colorful background behind him">
+    <p>Hello, My name is Daniel Thomas. I’m a Developer from Sheffield. I started learning to code in 2020 and although
+      I am very new to coding, I have found a passion for creating simple, user-friendly sites and applications.</p>
     <p>Coding has captured my imagination. I have tried to express this in my projects by creating a comfortable user
       experience free from clutter and noise.</p>
     <p>To date most of my work has been created using HTML, CSS and JavaScript. I’m almost constantly learning at this
@@ -38,19 +39,111 @@
   </section>
 
   <section id="work">
+    <div class="card" id="card">
+      <div class="cardframe">
+        <h4>Caesar Cipher</h4>
+      </div>
+      <img class="cardimg" src="assets/images/projects/caesar-cipher.jpg"
+        alt='image of a website used for encoding and decoding messages'>
+      <p>A simple encoder / decoder project built using HTML, CSS and Javascript. Users can add text and select a key to
+        encrypt a message.</p>
+
+      <p>Users receiving an encoded message and a key can enter these through the same interface and click decrypt to
+        find out what the message says. wkdqnv iru orrnlqj dw pb sruwirolr (3).</p>
+
+      <p>This was a fun little project which introduced me to some new concepts and methods in JavaScript. I added a
+        background to compliment the application and used flexbox to make sure the app is responsive to display sizes.
+      </p>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-link card-icon"></i></a>
+    </div>
+    <div class="card" id="card">
+      <div class="cardframe">
+        <h4>Java's Crypt</h4>
+      </div>
+      <img class="cardimg" src="assets/images/projects/jcrypt.jpg">
+      <p>Harking back to text based adventure games on the old BBC micro (if you remember those). Built using HTML, CSS
+        and Javascript. This project uses Object Oriented Programming to creating simple maze game for users to navigate
+        around, interacting with the characters as they go. The displays are updated using JS and the Document Object
+        Model, so the application runs on a single page. </p>
+
+      <p>The interface is simple and clean. I have tried to replicate the monochromatic displays of the 80’s to create a
+        user feel that is authentic to the games on which this is based. </p>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-link card-icon"></i></a>
+    </div>
+    <div class="card" id="card">
+      <div class="cardframe">
+        <h4>Calculator</h4>
+      </div>
+      <img class="cardimg" src="assets/images/projects/calculator.jpg">
+      <p>A basic calculator made using React and styled using flexbox / CSS.</p>
+
+      <p>This is a fully functioning calculator with some character added to give some unique styling to the experience.
+        This is a very early React Project and one which introduced me to the framework. It’s a single component
+        application that proved to be challenging in places (I never thought decimal points could cause such headaches).
+      </p>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-link card-icon"></i></a>
+    </div>
+    <div class="card" id="card">
+      <div class="cardframe">
+        <h4>FakeBook</h4>
+      </div>
+      <img class="cardimg" src="assets/images/projects/spamspace.jpg">
+      <p>A social media site/app created using React and styled using React Bootstrap.</p>
+
+      <p>A simple user interface implemented using React Router gives the user the ability to create new posts and view
+        past posts. The functionality to increase or decrease likes exists on each post giving a familiar social media
+        feel. The app uses local storage to keep posts beyond refreshing the page.</p>
+
+      <p>This was my first venture into a React application using multiple components and local storage. Whilst
+        challenging this project showed me the power and flexibility React can provide.</p>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-link card-icon"></i></a>
+    </div>
+    <div class="card" id="card">
+      <div class="cardframe">
+        <h4>Shopping List</h4>
+      </div>
+      <img class="cardimg" src="assets/images/projects/Shoppolisto.jpg">
+      <p>I created this application to further my React experience. After a few apps I wanted to attempt something that
+        wasn’t on the bootcamp curriculum.</p>
+
+      <p>I created shoppolisto to experiment with more fields and methods inside a React application, adding more
+        criteria for items and using the data provided to create totals for both individual lines and the whole list
+        were my goals here.</p>
+
+      <p>Creating this app was a light, fun experience and though it probably needs a bit more polish now, it’s one I’m
+        very fond of.</p>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-link card-icon"></i></a>
+    </div>
+    <div class="card" id="card">
+      <div class="cardframe">
+        <h4>Weather App</h4>
+      </div>
+      <img class="cardimg" src="assets/images/projects/wevva.jpg">
+      <p>Using the Open Weather API this application collects a 5 day forecast and presents a daily summary in an
+        accessible format to the user.</p>
+
+      <p>Built using React and styled using React Bootstrap. The app consumes the API using Axios. It has some custom
+        loading messages which are provided to add some character to the application.</p>
+      <a href="http://" target="_blank" rel="noopener noreferrer"><i class="bi bi-link card-icon"></i></a>
+    </div>
   </section>
 
   <section id="contact">
     <div class="contact-item">
-      <a href="https://twitter.com/d4n13l_th0m45" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter" id="contact-icon"></i></a>
-      <p>Want to keep up with my journey? I’ll be updating and adding new things to this site as I go, but if you’re interested in regular updates and the occasional humourous tweet, please follow me on Twitter.</p>
+      <a href="https://twitter.com/d4n13l_th0m45" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"
+          id="contact-icon"></i></a>
+      <p>Want to keep up with my journey? I’ll be updating and adding new things to this site as I go, but if you’re
+        interested in regular updates and the occasional humourous tweet, please follow me on Twitter.</p>
     </div>
     <div class="contact-item">
-      <a href="https://www.linkedin.com/in/daniel-thomas-39b1bb1b8" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" id="contact-icon"></i></a>
-      <p>I’m relatively new to linkedIn and I'm keen to engage with the tech community. Being new to to the industry is quite daunting and I’m keen to meet new people and build both my experience and confidence.</p>
+      <a href="https://www.linkedin.com/in/daniel-thomas-39b1bb1b8" target="_blank" rel="noopener noreferrer"><i
+          class="bi bi-linkedin" id="contact-icon"></i></a>
+      <p>I’m relatively new to linkedIn and I'm keen to engage with the tech community. Being new to to the industry is
+        quite daunting and I’m keen to meet new people and build both my experience and confidence.</p>
     </div>
     <div class="contact-item">
-      <a href="mailto:dan@danthomas.website" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-fill" id="contact-icon"></i></a>
+      <a href="mailto:dan@danthomas.website" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-fill"
+          id="contact-icon"></i></a>
       <p>Want to know more or have a question? Drop me an email.</p>
     </div>
   </section>
