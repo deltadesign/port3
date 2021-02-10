@@ -30,6 +30,12 @@
   left: 0;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
   z-index: -12;
+  animation: bannerslide 0.8s forwards linear;
+}
+
+@keyframes bannerslide {
+  0% {left: -100%; top:0;}
+  100% {left: 0; top: 0;}
 }
 
 /* HEADER */
