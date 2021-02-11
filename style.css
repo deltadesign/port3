@@ -193,7 +193,7 @@ section#work .card {
 }
 
 .card-icon{
-  font-size: 3em;
+  font-size: 2.75em;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -244,6 +244,7 @@ section#contact.active {
 
 .contact-item p{
   width: 60ch;
+  max-width: 90%;
   text-align: center;
   font-size: 1.2em;
   font-family: var(--font2);
