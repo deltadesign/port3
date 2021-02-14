@@ -8,7 +8,7 @@
 :root{
   --color1: #193549;
   /* #193549 - blue */
-  --color2: orange; 
+  --color2: #ff9a00;
   --font1: 'Major Mono Display', monospace;
   --font2: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -142,13 +142,18 @@ section#work .card {
 .cardframe {
   font-family: var(--font2);
   background-color: var(--color2);
-  width: fit-content;
-  height: 3ch;
-  padding: 0 5ch;
+  min-width: 33% ;
+  max-width: 50%;
+  height: auto;
+  padding: 0.2em 0;
   border-radius: 5px 0 10px 0;
   position: absolute;
   align-self: flex-start;
   z-index: 3;
+}
+
+.cardframe h4 {
+  text-align: center;
 }
 
 .cardimg {
@@ -168,9 +173,9 @@ section#work .card {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
 
 .card a{
