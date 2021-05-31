@@ -1,184 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./favicon-16x16.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="./favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Dan Thomas, Developer</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./favicon-16x16.png" type="image/png" sizes="16x16">
-  <link rel="shortcut icon" href="./favicon-32x32.png" type="image/png" sizes="32x32">
-  <link rel="stylesheet" href="./style.css">
-  <title>Dan Thomas, Developer</title>
-</head>
+  <body>
+    <div class="banner"></div>
 
-<body>
+    <div class="page-header">
+      <header>/ daniel thomas//</header>
+      <nav id="nav">
+        <a href="#" name="about">about</a>
+        <p>/</p>
+        <a href="#" name="work">work</a>
+        <p>/</p>
+        <a href="#" name="contact">contact</a>
+      </nav>
+    </div>
 
-  <div class="banner"></div>
-
-  <div class="page-header">
-    <header>/ daniel thomas//</header>
-    <nav id="nav">
-      <a href="#" name="about">about</a>
-      <p>/</p>
-      <a href="#" name="work">work</a>
-      <p>/</p>
-      <a href="#" name="contact">contact</a>
-    </nav>
-  </div>
-
-  <section id="about" class="active">
-    <img src="./assets/images/profile.jpg" alt="a picture of a man with a colorful background behind him">
-    <p>Hello, My name is Daniel Thomas and I’m a Developer from Sheffield. I started learning to code in June 2020 and
-      although
-      I am still quite new to programming, I have found a passion for creating user-friendly sites and applications.
-    </p>
-    <p>Programming is a creative field and I enjoy bringing things to life, I've tried to express this in my projects where possible.</p>
-    <p>To date most of my work has been created using HTML, CSS, JavaScript and React. I have used Sass, Redux, Express and
-      Mongo DB in some areas and my knowledge of these technologies is growing... (more projects are in the pipeline). Like most who are new
-      to the world of programming I’m constantly learning, making and breaking things.</p>
-    <p>My goal is to continue my journey as developer, grow my portfolio and (hopefully) start a career in this field. If you have time please take a look at my
-      work and if you’d like to get in touch, drop me an email or connect with me on Twitter / LinkedIn.</p>
+    <section id="about" class="active">
+      <img
+        src="./assets/images/profile.jpg"
+        alt="a picture of a man with a colorful background behind him"
+      />
+      <p>
+        Hello, My name is Daniel Thomas and I’m a Developer from Sheffield. I
+        started learning to code in June 2020 and although I am still quite new
+        to programming, I have found a passion for creating user-friendly sites
+        and applications.
+      </p>
+      <p>
+        Programming is a creative field and I enjoy bringing things to life,
+        I've tried to express this in my projects where possible.
+      </p>
+      <p>
+        To date most of my work has been created using HTML, CSS, JavaScript and
+        React. I have used Sass, Redux, Express and Mongo DB in some areas and
+        my knowledge of these technologies is growing... (more projects are in
+        the pipeline). Like most who are new to the world of programming I’m
+        constantly learning, making and breaking things.
+      </p>
+      <p>
+        My goal is to continue my journey as developer, grow my portfolio and
+        (hopefully) start a career in this field. If you have time please take a
+        look at my work and if you’d like to get in touch, drop me an email or
+        connect with me on Twitter / LinkedIn.
+      </p>
       <p>Thanks for reading</p>
-    <p>- Dan.</p>
-  </section>
+      <p>- Dan.</p>
+    </section>
 
-  <section id="work">
-    <div class="card" id="card">
-      <div class="cardframe">
-        <h4>Caesar Cipher</h4>
+    <section id="work">
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Caesar Cipher</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/caesar-cipher.jpg"
+          alt="image of a website used for encoding and decoding messages"
+        />
+        <p>
+          A simple encoder / decoder project built using HTML, CSS and
+          Javascript. Users can add text and select a key to encrypt a message.
+        </p>
+
+        <p>
+          Users receiving an encoded message and a key can enter these through
+          the same interface and click decrypt to find out what the message
+          says. wkdqnv iru orrnlqj dw pb sruwirolr (3).
+        </p>
+
+        <p>
+          This was a fun little project which introduced me to some new concepts
+          and methods in JavaScript. I added a background to compliment the
+          application and used flexbox to make sure the app is responsive to
+          display sizes.
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/caesarcipher/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-      <img class="cardimg" src="assets/images/projects/caesar-cipher.jpg"
-        alt='image of a website used for encoding and decoding messages'>
-      <p>A simple encoder / decoder project built using HTML, CSS and Javascript. Users can add text and select a key to
-        encrypt a message.</p>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Body Mass Index</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/bmi.jpg"
+          alt="image of a bmi calculator"
+        />
+        <p>A BMI calculator, built using HTML, CSS and vanilla JS</p>
 
-      <p>Users receiving an encoded message and a key can enter these through the same interface and click decrypt to
-        find out what the message says. wkdqnv iru orrnlqj dw pb sruwirolr (3).</p>
+        <p>
+          The app accepts both imperial and metric measurements and includes
+          some validation on the form to prevent erroneus results.
+        </p>
 
-      <p>This was a fun little project which introduced me to some new concepts and methods in JavaScript. I added a
-        background to compliment the application and used flexbox to make sure the app is responsive to display sizes.
-      </p>
-      <div class="btn-wrapper">
-        <a href="https://deltadesign.github.io/caesarcipher/" target="_blank" rel="noopener noreferrer"><i
-            class="bi bi-link card-icon"></i></a>
+        <p>
+          Another fun little project which helped me take my DOM traversal and
+          manipulation skills further.
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/bmi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-    </div>
-    <div class="card" id="card">
-      <div class="cardframe">
-        <h4>Java's Crypt</h4>
-      </div>
-      <img class="cardimg" src="assets/images/projects/jcrypt.jpg"
-        alt='image of a text based adventure game interface, a black screen with green text'>
-      <p>Harking back to text based adventure games on the old BBC micro (if you remember those). Built using HTML, CSS
-        and Javascript. This project uses Object Oriented Programming to creating simple maze game for users to navigate
-        around, interacting with the characters as they go. The displays are updated using JS and the Document Object
-        Model, so the application runs on a single page. </p>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Java's Crypt</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/jcrypt.jpg"
+          alt="image of a text based adventure game interface, a black screen with green text"
+        />
+        <p>
+          Harking back to text based adventure games on the old BBC micro (if
+          you remember those). Built using HTML, CSS and Javascript. This
+          project uses Object Oriented Programming to creating simple maze game
+          for users to navigate around, interacting with the characters as they
+          go. The displays are updated using JS and the Document Object Model,
+          so the application runs on a single page.
+        </p>
 
-      <p>The interface is simple and clean. I have tried to replicate the monochromatic displays of the 80’s to create a
-        user feel that is authentic to the games on which this is based. </p>
-      <div class="btn-wrapper">
-        <a href="https://deltadesign.github.io/jcrypt/" target="_blank" rel="noopener noreferrer"><i
-            class="bi bi-link card-icon"></i></a>
+        <p>
+          The interface is simple and clean. I have tried to replicate the
+          monochromatic displays of the 80’s to create a user feel that is
+          authentic to the games on which this is based.
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/jcrypt/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-    </div>
-    <div class="card" id="card">
-      <div class="cardframe">
-        <h4>Calculator</h4>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Calculator</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/calculator.jpg"
+          alt="a calculator with the head of a robot"
+        />
+        <p>
+          A basic calculator made using React and styled using flexbox / CSS.
+        </p>
+
+        <p>
+          This is a fully functioning calculator with some character added to
+          give some unique styling to the experience. This is a very early React
+          Project and one which introduced me to the framework. It’s a single
+          component application that proved to be challenging in places (I never
+          thought decimal points could cause such headaches).
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/calcutron/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-      <img class="cardimg" src="assets/images/projects/calculator.jpg" alt='a calculator with the head of a robot'>
-      <p>A basic calculator made using React and styled using flexbox / CSS.</p>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>FakeBook</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/spamspace.jpg"
+          alt="a social media site, a place to write and view posts"
+        />
+        <p>
+          A social media site/app created using React and styled using React
+          Bootstrap.
+        </p>
 
-      <p>This is a fully functioning calculator with some character added to give some unique styling to the experience.
-        This is a very early React Project and one which introduced me to the framework. It’s a single component
-        application that proved to be challenging in places (I never thought decimal points could cause such headaches).
-      </p>
-      <div class="btn-wrapper">
-        <a href="https://deltadesign.github.io/calcutron/" target="_blank" rel="noopener noreferrer"><i
-            class="bi bi-link card-icon"></i></a>
+        <p>
+          A simple user interface implemented using React Router gives the user
+          the ability to create new posts and view past posts. The functionality
+          to increase or decrease likes exists on each post giving a familiar
+          social media feel. The app uses local storage to keep posts beyond
+          refreshing the page.
+        </p>
+
+        <p>
+          This was my first venture into a React application using multiple
+          components and local storage. Whilst challenging this project showed
+          me the power and flexibility React can provide.
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/Fakebook/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-    </div>
-    <div class="card" id="card">
-      <div class="cardframe">
-        <h4>FakeBook</h4>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Shopping List</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/Shoppolisto.jpg"
+          alt="a shopping list containing the items bacon and eggs"
+        />
+        <p>
+          I created this application to further my React experience. After a few
+          apps I wanted to attempt something that wasn’t on the bootcamp
+          curriculum.
+        </p>
+
+        <p>
+          I created shoppolisto to experiment with more fields and methods
+          inside a React application, adding more criteria for items and using
+          the data provided to create totals for both individual lines and the
+          whole list were my goals here.
+        </p>
+
+        <p>
+          Creating this app was a light, fun experience and though it probably
+          needs a bit more polish now, it’s one I’m very fond of.
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/shoppolisto/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-      <img class="cardimg" src="assets/images/projects/spamspace.jpg"
-        alt='a social media site, a place to write and view posts'>
-      <p>A social media site/app created using React and styled using React Bootstrap.</p>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Shopping List II</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/shoppolist2.jpg"
+          alt="a shopping list containing the items bacon and eggs"
+        />
+        <p>Shoppolisto 2: using React Hooks and Sassy CSS!!</p>
 
-      <p>A simple user interface implemented using React Router gives the user the ability to create new posts and view
-        past posts. The functionality to increase or decrease likes exists on each post giving a familiar social media
-        feel. The app uses local storage to keep posts beyond refreshing the page.</p>
-
-      <p>This was my first venture into a React application using multiple components and local storage. Whilst
-        challenging this project showed me the power and flexibility React can provide.</p>
-      <div class="btn-wrapper">
-        <a href="https://deltadesign.github.io/Fakebook/" target="_blank" rel="noopener noreferrer"><i
-            class="bi bi-link card-icon"></i></a>
+        <p>
+          Another foray into futhering my experience with React. This time using
+          hooks and styling the application with the CSS pre-processor Sass.
+          This app has a few more functions than it's predecessor and uses local
+          storage to persist the data.
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/shoppo2"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-    </div>
-    <div class="card" id="card">
-      <div class="cardframe">
-        <h4>Shopping List</h4>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Weather App</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/wevva.jpg"
+          alt="an image of a weather forecast"
+        />
+        <p>
+          Using the Open Weather API this application collects a 5 day forecast
+          and presents a daily summary in an accessible format to the user.
+        </p>
+
+        <p>
+          Built using React and styled using React Bootstrap. The app consumes
+          the API using Axios. It has some custom loading messages which are
+          provided to add some character to the application.
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/wevva/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-      <img class="cardimg" src="assets/images/projects/Shoppolisto.jpg"
-        alt='a shopping list containing the items bacon and eggs'>
-      <p>I created this application to further my React experience. After a few apps I wanted to attempt something that
-        wasn’t on the bootcamp curriculum.</p>
+      <div class="card" id="card">
+        <div class="cardframe">
+          <h4>Top Dog</h4>
+        </div>
+        <img
+          class="cardimg"
+          src="assets/images/projects/topdog.jpg"
+          alt="an image of a social media site for dogs"
+        />
+        <p>
+          Final group project from The Developer Academy. Working in a team of
+          three to deliver the concept of a social media site for dogs. A lot of
+          fun creating this one working alongside some great people too.
+        </p>
 
-      <p>I created shoppolisto to experiment with more fields and methods inside a React application, adding more
-        criteria for items and using the data provided to create totals for both individual lines and the whole list
-        were my goals here.</p>
-
-      <p>Creating this app was a light, fun experience and though it probably needs a bit more polish now, it’s one I’m
-        very fond of.</p>
-      <div class="btn-wrapper">
-        <a href="https://deltadesign.github.io/shoppolisto/" target="_blank" rel="noopener noreferrer"><i
-            class="bi bi-link card-icon"></i></a>
+        <p>
+          This was a great opportunity to put everything we'd been learning into
+          practise, for the full presentation we made on this project click
+          <a
+            href="https://docs.google.com/presentation/d/1mSfg32hAn76fxshPwJaFu9oHO5rbnWXNfS-ox9MYhCQ/edit?usp=sharing"
+            target="_blank"
+            >here</a
+          >
+        </p>
+        <div class="btn-wrapper">
+          <a
+            href="https://deltadesign.github.io/topdog"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-link card-icon"></i
+          ></a>
+        </div>
       </div>
-    </div>
-    <div class="card" id="card">
-      <div class="cardframe">
-        <h4>Weather App</h4>
+    </section>
+
+    <section id="contact">
+      <div class="contact-item">
+        <a
+          href="https://twitter.com/d4n13l_th0m45"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-twitter" id="contact-icon"></i
+        ></a>
+        <p>
+          Want to keep up with my journey? I’ll be updating and adding new
+          things to this site as I go, but if you’re interested in regular
+          updates and the occasional humourous tweet, please follow me on
+          Twitter.
+        </p>
       </div>
-      <img class="cardimg" src="assets/images/projects/wevva.jpg" alt='an image of a weather forecast'>
-      <p>Using the Open Weather API this application collects a 5 day forecast and presents a daily summary in an
-        accessible format to the user.</p>
-
-      <p>Built using React and styled using React Bootstrap. The app consumes the API using Axios. It has some custom
-        loading messages which are provided to add some character to the application.</p>
-      <div class="btn-wrapper">
-        <a href="https://deltadesign.github.io/wevva/" target="_blank" rel="noopener noreferrer"><i
-            class="bi bi-link card-icon"></i></a>
+      <div class="contact-item">
+        <a
+          href="https://www.linkedin.com/in/daniel-thomas-39b1bb1b8"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-linkedin" id="contact-icon"></i
+        ></a>
+        <p>
+          I’m relatively new to linkedIn and I'm keen to engage with the tech
+          community. Being new to to the industry is quite daunting and I’m keen
+          to meet new people and build both my experience and confidence.
+        </p>
       </div>
-    </div>
-  </section>
+      <div class="contact-item">
+        <a
+          href="https://github.com/deltadesign"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-github" id="contact-icon"></i
+        ></a>
+        <p>
+          My GitHub profile, which includes my other projects. Here you can see
+          commit histories, contributions and collaborations on group projects
+          that I've been involved with.
+        </p>
+      </div>
+      <div class="contact-item">
+        <a
+          href="mailto:dan@danthomas.website"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="bi bi-envelope-fill" id="contact-icon"></i
+        ></a>
+        <p>Want to know more or have a question? Drop me an email.</p>
+      </div>
+    </section>
 
-  <section id="contact">
-    <div class="contact-item">
-      <a href="https://twitter.com/d4n13l_th0m45" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"
-          id="contact-icon"></i></a>
-      <p>Want to keep up with my journey? I’ll be updating and adding new things to this site as I go, but if you’re
-        interested in regular updates and the occasional humourous tweet, please follow me on Twitter.</p>
-    </div>
-    <div class="contact-item">
-      <a href="https://www.linkedin.com/in/daniel-thomas-39b1bb1b8" target="_blank" rel="noopener noreferrer"><i
-          class="bi bi-linkedin" id="contact-icon"></i></a>
-      <p>I’m relatively new to linkedIn and I'm keen to engage with the tech community. Being new to to the industry is
-        quite daunting and I’m keen to meet new people and build both my experience and confidence.</p>
-    </div>
-    <div class="contact-item">
-      <a href="https://github.com/deltadesign" target="_blank" rel="noopener noreferrer"><i
-          class="bi bi-github" id="contact-icon"></i></a>
-      <p>My GitHub profile, which includes my other projects. Here you can see commit histories, contributions and collaborations on group projects that I've been involved with.</p>
-    </div>
-    <div class="contact-item">
-      <a href="mailto:dan@danthomas.website" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-fill"
-          id="contact-icon"></i></a>
-      <p>Want to know more or have a question? Drop me an email.</p>
-    </div>
-  </section>
-
-  <!-- SCRIPT TAGS -->
-  <script src="app.js" type="text/javascript"></script>
-</body>
-
+    <!-- SCRIPT TAGS -->
+    <script src="app.js" type="text/javascript"></script>
+  </body>
 </html>
